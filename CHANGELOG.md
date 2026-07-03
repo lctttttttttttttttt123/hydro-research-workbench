@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.0] — 2026-07-03
+
+### ✨ 新增
+
+- **humanizer-zh** — 中文文本"去 AI 味"引擎:检测并修复 24 种 AI 写作模式(意义拔高、宣传腔、破折号滥用、三段式、AI 词汇等),带 5 维度质量评分
+- **hydro-deai-polish** — 水利学术"去 AI 味"润色层:以中性学术模式驱动 humanizer-zh,关闭个性注入,硬保护数据/公式/术语/引文/图表题注与分条量化结论。定位在写作+制图+审稿完成后、出 Word 前的最后一道文字工序
+
+### 🔄 更新
+
+- **hydro-workflow** — 流程链新增第 7 步"去 AI 味润色 → hydro-deai-polish",成文推为第 8 步;新增 Sci-Hub 禁令条款(全文只走合法 OA 或学校授权渠道)
+- **academic-writing** — SKILL.md 补全 references 模板引用路径(domain-terms / genre-dissertation / genre-journal / genre-grant / style-conventions);交付格式新增"成文前去 AI 味润色"环节
+
+### 🗺️ 完整流程 (v1.1)
+
+读文献 → 综述 → 谋篇 → 写作 → 制图 → 审稿 → **去 AI 味润色** → 成文
+
+---
+
 ## [1.0.0] — 2026-07-03
 
 ### 🎉 首次发布
