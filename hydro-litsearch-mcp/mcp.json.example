@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "hydro-litsearch": {
+      "command": "python",
+      "args": ["/绝对路径/hydro-litsearch-mcp/server.py"],
+      "env": {
+        "LIT_MCP_EMAIL": "your.name@hhu.edu.cn",
+        "S2_API_KEY": "",
+        "WOS_API_KEY": ""
+      }
+    }
+  }
+}
