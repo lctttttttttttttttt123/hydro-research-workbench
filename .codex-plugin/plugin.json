@@ -1,0 +1,45 @@
+{
+  "name": "hydro-research-workbench",
+  "version": "1.1.0",
+  "description": "面向水利与水电科研的可复用工作台，覆盖文献检索与综述、论文谋篇与写作、数据分析、科研制图、学位论文审查、PDF 精读和项目交付检查。",
+  "author": {
+    "name": "水利科研团队",
+    "url": "https://github.com/lctttttttttttttttt123"
+  },
+  "homepage": "https://github.com/lctttttttttttttttt123/hydro-research-workbench",
+  "repository": "https://github.com/lctttttttttttttttt123/hydro-research-workbench",
+  "license": "MIT",
+  "keywords": [
+    "hydraulics",
+    "hydropower",
+    "water-resources",
+    "sediment",
+    "academic-writing",
+    "literature-review",
+    "data-analysis",
+    "scientific-figures",
+    "水利",
+    "水电",
+    "学术写作",
+    "科研绘图"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "水利科研工作台",
+    "shortDescription": "水利科研的文献、写作、分析、制图与审稿工作流",
+    "longDescription": "把读文献、做综述、搭论文主线、正式写作、科研数据分析、出版级制图、学位论文审查、PDF 精读和交付前检查整合为一套可复用的水利/水电科研工作流。默认支持中文水利期刊与河海大学学位论文场景，并可切换到英文 SCI 写作和制图规范。",
+    "developerName": "水利科研团队",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/lctttttttttttttttt123/hydro-research-workbench",
+    "defaultPrompt": [
+      "使用水利科研工作台梳理当前课题的科学问题、论文主线和章节框架。",
+      "使用水利科研工作台分析当前目录中的试验或模型数据，并生成符合论文规范的图表。",
+      "使用水利科研工作台检查论文中的待补项、图件溯源、引用可靠性和可复现性问题。"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "hydro-research-workbench",
+  "interface": {
+    "displayName": "水利科研工作台"
+  },
+  "plugins": [
+    {
+      "name": "hydro-research-workbench",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

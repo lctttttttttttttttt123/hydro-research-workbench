@@ -1,0 +1,19 @@
+{
+  "mcp_servers": {
+    "hydro-litsearch": {
+      "command": "python",
+      "args": [
+        "server.py"
+      ],
+      "cwd": "./hydro-litsearch-mcp",
+      "env_vars": [
+        "LIT_MCP_EMAIL",
+        "S2_API_KEY",
+        "WOS_API_KEY"
+      ],
+      "startup_timeout_sec": 30,
+      "tool_timeout_sec": 60,
+      "enabled": false
+    }
+  }
+}
